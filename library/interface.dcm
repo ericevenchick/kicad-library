@@ -66,12 +66,6 @@ K 2Ch Dual Digital Isolator 25Mbps
 F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
-$CMP ADUM1201AR
-D ADuM1201AR, Dual-Channel Digital Isolator, 1Mbps 150ns, SO8
-K 2Ch Dual Digital Isolator 1Mbps
-F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
-$ENDCMP
-#
 $CMP ADuM1201BR
 D ADuM1201BR, Dual-Channel Digital Isolator, 10Mbps 50ns, SO8
 K 2Ch Dual Digital Isolator 10Mbps
@@ -180,6 +174,11 @@ $ENDCMP
 $CMP MAX232
 D Driver de Ligne RS232
 K RS232
+$ENDCMP
+#
+$CMP MCP2515
+D Stand-alone CAN Controller
+K CAN, SPI, interface
 $ENDCMP
 #
 $CMP MCP2551-I/P
